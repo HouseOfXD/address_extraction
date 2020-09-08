@@ -12,7 +12,14 @@ from nltk.tag import ClassifierBasedTagger
 from nltk.tag.util import untag
 from nltk.stem.snowball import SnowballStemmer
 
-# IOB tag name for specifying address 
+# **********************************************
+# make sure to uncomment the following line when
+# running this script for the first time
+# **********************************************
+
+# nltk.download()
+
+# IOB tag name for specifying address
 GPE_TAG = "GPE"
 
 class AddressChunker(ChunkParserI):
@@ -31,10 +38,10 @@ class AddressChunker(ChunkParserI):
 
         # Transform the list of triplets to nltk.Tree format
         return conlltags2tree(iob_triplets)
-    
+
     def features(self, tokens, index, history):
-        # for more details see: http://nlpforhackers.io/named-entity-extraction/ 
-        
+        # for more details see: http://nlpforhackers.io/named-entity-extraction/
+
         """
         `tokens`  = a POS-tagged sentence [(w1, t1), ...]
         `index`   = the index of the token we want to extract features for
@@ -153,4 +160,5 @@ def extract_address(chunker, sentence):
 print("Loading dataset...")
 chunker = get_address_chunker('dataset/IOB_tagged_addresses.pkl')
 print("Done.")
-print(extract_address(chunker, "Hey man! Joe lives here: 44 West 22nd Street, New York, NY 12345. Can you contact him now? If you need any help, call me on 12345678"))
+test = u'Price: $779,000 Location: Tudor City, Manhattan Tudor City, the historic 1920s enclave in Midtown East, has been called “a city within a city” for its somewhat secluded location on a hill and its two landscaped parks. This apartment at 333 East 41st Street is on the top floor of Prospect Hill, a six-story brick co-op built in 1926. Though the elevator building slightly predates its neighbors, which are mostly Tudor Revival-style apartment high-rises, it is still included in the historic district. It sits right next to one of said landscaped parks on a one-way street that has no through-traffic — and ends at an elevated lookout with benches facing the East River. Grand Central is only a ten-minute walk away. Specs: 1 bed, 1 bath, 650 square feet This unit has 10.5-foot ceilings and huge, 7.5-foot casement windows overlooking the park. The asking price is on the higher end for one-bedroom co-ops in the area, likely because it comes with recent renovations, like hand-cut, hand-painted tiles in the kitchen and bathroom, new appliances (including a Bertazzoni range), a rain shower, and built-in shelves. There’s a wood-burning fireplace in the living room, bar seating in the kitchen, and a breakfast nook next to more casement windows. The building is pet-friendly on a case-by-case basis and has a basement laundry room. Monthly dues are $1,700. See a video tour here.'
+print(extract_address(chunker, test))
