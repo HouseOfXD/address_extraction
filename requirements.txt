@@ -1,3 +1,13 @@
 requests
-numpy
-nltk
+pyap
+Flask
+Flask-RESTful
+Flask-CORS
+Flask-SSLify
+webargs
+pyopenssl
+healthcheck
+urllib3
+python-dotenv
+google-cloud-storage
+gunicorn

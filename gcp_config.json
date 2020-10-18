@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "data-depot-273618",
+  "private_key_id": "5351599f98c3d7335b88127f013b6f5bcb0c3a4e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC+qihNkpF+6Irz\nXLnaqi8GWCxjUwGmAhPvMcCRL/4KEHKlkcb37MDfqhX3GrltdLEeB2nlgy3LA8i3\nzeFNgMsKF3LEpEoyCZi8Er55dn5VhZVGvzN8ODLajOMMfry4jnvyN8Wy9ltzxhpP\n8Z1vjTwbg/SiiP4EMBNYdRoHRy1n1WEqN8oEXmEVM3mTkesYKo1yMi2zcb5d4Fjj\nBnyT/XzPSjcHReFsTpa3kOJTq8IYqjnrB7MLSt3FLwandvMkrl51rA7dQYsBu3m1\n7EIhXlgT3q62oQiTGiSNyyuFWpyg9PZIuJUehisvDVlcWKh9CPTyDk8Ldx74if/f\nrOw6+BOXAgMBAAECggEAAdRDaLhxDMLV9iiqtWOYtrIihhTh2RmIZ0ra9xZp6hqr\nfdWtudo9z7iSm6Pxy1SPuvhakjGTYVuwRM5aO7jYyuHs+RO14j8B/V+mQvQu7n3o\nuGD3edBW4EpH/kgYLwCNVmRHyMy+yMs4vpndALsIm3TWSrePM4CM+I/QGvqz5fI7\nie1zWE/+wb2UWpc2rrZcgRMU874P5FVLHbphxDaZHw8tjq0jHCF+GdY9Pggzb0ZK\nYS/eui92HK6lkJBEUvQePgu7nPJ6o/xvW8YrW1zpG4uZKOgN3MQFiFDKBc1XZ5Cg\ne7vkQmHDay+ozQs9Gcws+tqup4cmrfesjcynTRV58QKBgQDge0TU1WK2S1M+qdYA\ng6PrTlolxvrrNLlZZFC0I0atNI7lRkqDbZITBclk4GebI8I5Kv4MdtXg7UR1XG9i\ntMESUMzu+fRICB/In+eWE9ZYUr4qQL5D2Emw6VmZ5xsYjJ8xpjFJIRjTgEnkqfY/\nVQkqFPDemxNVj0WTRYobt2hgyQKBgQDZb2GD19G6UHUNYGxTcUZEV1DJPLKVRe52\nisbRgi61MlISwaYxej4ysl+oOmhxw2zTfuzG1QnV8O7kPhiMVH5p6Lq6FyokP4Bv\nHwFchRNNm/ozayh2DoxOXxEmQ98YizcaLucsjcXAghsqQGpi+sywP/opUPRGJXO3\nAKF1AhBhXwKBgCO+/WL259UngYYE/XLvg3bA71H8sZAqwSke9Er7IxIJwId5/fuX\nwx8MWNmbcmQd+Zuo4POTKNO8dJ5LreEF74i/HSMg4mlmAcmszO/1ELjX1DhePu4G\nzxVA02fSiVoLan45fLescYucbiffeLr1C5SL6R9Jinahbe7Zr/hh6FkhAoGAZSbD\nnqoQDzTOv2JUAp13quNT2co66eaWgN8ejuiZAgJe3ArqXaoYtUz14zUI0aOwRNOP\nIxCIetaSy+t3UBEenfZ+p4OPPz2ragZqg7gEut4ND06SjBlIfE0NlVeNucVJ5Qxc\nzwVFMcFVEdrVoyY5guTAY+gdO2TA6CmK8vv60tECgYBI9783F1REztSYh4H8LrwH\nyoceFI8vVVnGA2jEtD5c3woKmBhP+iESGY5xzKLWtrQxIpkCVm9e2dBNs2ZX1Kqy\nWFR4Qcci9duFIMtjYyBqIoEpYi/nk1Vrh7pmgYhY9SCCAarANDpH1nAuU+w9Fpll\nJJaIIkkfk1PEO3U5ZfgUow==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dean-855@data-depot-273618.iam.gserviceaccount.com",
+  "client_id": "102624896534458862477",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dean-855%40data-depot-273618.iam.gserviceaccount.com"
+}
